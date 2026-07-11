@@ -1,0 +1,1 @@
+{"baseUrl": "https://mytestapp.com", "timeoutMs": 3000, "retryAttempts": 3, "enableCache": true}
