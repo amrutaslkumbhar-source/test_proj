@@ -1,0 +1,23 @@
+cd test_proj
+cd
+cd..
+cd test_proj
+echo 
+echo "creating and entering text in file 1" >> file1.txt
+echo "creating and entering text in file 2" >> file2.txt
+echo "creating and entering text in file 3" >> file3.txt
+git init
+git add file1.txt file2.txt file3.txt
+git commit -m "git practicals assignment 4.3"
+git status
+git diff file1.txt file2.txt
+echo "adding more lines to file1.txt for get diff"
+git diff file1.txt
+git add file1.txt
+git commit -m "adding lines in file1.txt for git diff"
+git diff file1.txt
+git diff HEAD~1 HEAD -- file1.txt
+git diff file1.txt
+git log
+doskey /history
+doskey /history > my_command_log.txt
